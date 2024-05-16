@@ -1,5 +1,5 @@
 <?php
-	 $secret_key = "71588074b7ca68dd02afe3f954fb2707";	  Your Secret Key
+	 $secret_key = "71588074b7ca68dd02afe3f954fb2707";	 // Your Secret Key
 if(isset($_GET['DR'])) {
 	 require('Rc43.php');
 	 $DR = preg_replace("/\s/","+",$_GET['DR']);

@@ -1,5 +1,5 @@
 <?php 
-require("../icon.html");
+
 require_once("../include/initialize.php");
  if(!isset($_SESSION['ADMIN_USERID'])){
     redirect(web_root."admin/login.php");
