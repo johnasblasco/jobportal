@@ -1,4 +1,4 @@
-137*{margin:0; padding:0;}
+*{margin:0; padding:0;}
 p{margin:0 0 15px 0; text-align:justify;}
 p.last, p.first, p.smallGap{margin-bottom:8px;}
 ul,ol,li{list-style:none; padding:0; margin:0;}
@@ -582,7 +582,7 @@ img{border:0;}
 	color:#FFF;
 	padding:0px 20px; }
 .chat_btn {z-index:10000; position:fixed; bottom:10px; right:10px; width:180px; padding:0px; }
-.#window h1 {
+#window h1 {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:18px;
 	color:#821316;
@@ -609,7 +609,7 @@ img{border:0;}
 	color:#FFF;
 	padding:0px 20px; }
 .chat_btn {z-index:10000; position:fixed; bottom:10px; right:10px; width:180px; padding:0px; }
-.#window h1 {
+#window h1 {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:18px;
 	color:#821316;

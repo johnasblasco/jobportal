@@ -7,6 +7,7 @@ require_once("../include/initialize.php");
   if(isset($_SESSION['ADMIN_USERID'])){
     redirect(web_root."admin/index.php");
   }
+  
   ?>
    
  <!DOCTYPE html>
@@ -62,10 +63,16 @@ require_once("../include/initialize.php");
           </div>
         </div>   -->
         <!-- /.col -->
-        <div class="col-xs-4">
-          <button type="submit" name="btnLogin" class="btn btn-primary btn-block btn-flat">Sign In</button>
-        </div>
+
+      <div class="col-xs-4">
+        <button type="submit" name="btnLogin" class="btn btn-primary btn-block btn-flat">Sign In</button>
       </div>
+
+      <div class="col-xs-4">
+        <a href="../index.php"><button type="button" class="btn btn-danger btn-block btn-flat">Back</button></a>
+      </div>
+    </div>
+      
         <!-- /.col -->
       </div>
     </form>
@@ -148,10 +155,4 @@ if(isset($_POST['btnLogin'])){
 </script>
 </body>
 </html>
-
- 
-
-
- 
-
 

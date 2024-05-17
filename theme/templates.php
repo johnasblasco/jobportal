@@ -29,7 +29,7 @@
       /*  Header
 ==================================== */
 .topbar{
-  background-color: #37393c;
+  background-color: #A91D3A;
   padding: 5px 0;
   /* color:#fff; */
   font-size: 11px !important;
@@ -55,6 +55,11 @@
   text-align:right;
 } 
  */
+ #wantajob{
+  background-color:maroon ;
+  border: none;
+ }
+ 
 
     </style>
 
@@ -106,7 +111,7 @@
 
               <li class="nav-item"><a class="nav-link" href="<?php echo web_root.'logout.php';?>"><i class="fa fa-user"></i> Logout</a></li>
              <?php } ?> 
-	          <li class="nav-item cta cta-colored"><a href="<?php echo web_root; ?>" class="nav-link">Want a Job</a></li>
+	          <li class="nav-item cta"><a href="<?php echo web_root; ?>index.php?q=hiring" class="nav-link" id="wantajob">Want a Job</a></li>
 
 	        </ul>
 	      </div>
@@ -128,7 +133,7 @@
         <div class="container">
           <div class="row d-flex justify-content-center">
             <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-              <h2>Subcribe to our Newsletter</h2>
+              <h2>Subscribe to our Newsletter</h2>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
               <div class="row d-flex justify-content-center mt-4 mb-4">
                 <div class="col-md-8">

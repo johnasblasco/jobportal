@@ -1,9 +1,9 @@
-    /*
-    Flaticon icon font: Flaticon
-    Creation date: 03/12/2018 06:50
-    */
+/*
+Flaticon icon font: Flaticon
+Creation date: 03/12/2018 06:50
+*/
 
-    @font-face {
+@font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
@@ -21,8 +21,8 @@
   }
 }
 
-    .fi:before{
-        display: inline-block;
+.fi:before {
+  display: inline-block;
   font-family: "Flaticon";
   font-style: normal;
   font-weight: normal;
@@ -34,14 +34,15 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
-    }
+  color: maroon; /* Added to make icons maroon */
+}
 
-    .flaticon-resume:before { content: "\f100"; }
+.flaticon-resume:before { content: "\f100"; }
 .flaticon-employee:before { content: "\f101"; }
 .flaticon-collaboration:before { content: "\f102"; }
 .flaticon-promotions:before { content: "\f103"; }
-    
-    $font-Flaticon-resume: "\f100";
-    $font-Flaticon-employee: "\f101";
-    $font-Flaticon-collaboration: "\f102";
-    $font-Flaticon-promotions: "\f103";
+
+$font-Flaticon-resume: "\f100";
+$font-Flaticon-employee: "\f101";
+$font-Flaticon-collaboration: "\f102";
+$font-Flaticon-promotions: "\f103";

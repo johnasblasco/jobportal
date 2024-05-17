@@ -27,6 +27,7 @@
         font-size: 20px;
 font-style: normal;
 margin-left: 20px;
+color: maroon;
 }
 
 .flaticon-resume:before { content: "\f100"; }

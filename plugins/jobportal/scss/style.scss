@@ -7,8 +7,8 @@ $white: #fff;
 $black: #000000;
 // $darken: #3a4348;
 
-$primary: #157efb;
-$secondary: #5dd28e;
+$primary: #A91D3A;
+$secondary: #3bc073;
 
 
 
@@ -1123,7 +1123,7 @@ textarea.form-control {
 			border-radius: 50%;
 			background: rgba(0,0,0,.1);
 			&.active {
-				background: $secondary;
+				background: $primary;
 			}
 		}
 	}

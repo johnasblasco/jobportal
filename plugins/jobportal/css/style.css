@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue: #A91D3A;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -18,7 +18,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #78d5ef;
+  --primary: #A91D3A;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -7654,8 +7654,8 @@ h1, h2, h3, h4, h5,
     font-weight: 400; }
     .category li a {
       display: block;
-      color: #1a1a1a;
-      border: 1px solid #d5f3e2;
+      color: #4c0013;
+      border: 1px solid #f0d5d5;
       padding: 5px 10px;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
@@ -7663,16 +7663,17 @@ h1, h2, h3, h4, h5,
       border-radius: 5px; }
       .category li a span.number {
         font-size: 16px;
-        background: #e9f9ef;
-        color: #5dd28e;
+        background: #f0d5d5;
+        color: #7f171f;
         padding: 2px 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         -ms-border-radius: 5px;
         border-radius: 5px; }
       .category li a:hover, .category li a:focus {
-        color: #5dd28e;
-        background: #f5fcf8; }
+        color: #f0d5d5;
+        background: #5c0505;
+         }
 
 .job-post-item {
   margin-bottom: 10px;
@@ -7788,7 +7789,10 @@ h1, h2, h3, h4, h5,
       -ms-border-radius: 5px;
       border-radius: 5px; }
       .search-job .form-group .form-control.btn.btn-primary {
-        background: #157efb !important; }
+        background: #830e0d !important;
+        border: 1px solid #830e0d !important;
+        cursor: pointer; }
+      
   .search-job .form-group .select-wrap {
     position: relative; }
     .search-job .form-group .select-wrap select {
@@ -7851,7 +7855,7 @@ h1, h2, h3, h4, h5,
     background-position: center center;
     position: relative;
     padding: 4em 0;
-    background: #157efb; }
+    background: #4c0013; }
   .ftco-section-parallax .heading-section-white h2 {
     font-weight: 400 !important; }
 
@@ -8501,7 +8505,7 @@ textarea.form-control {
       color: rgba(0, 0, 0, 0.7) !important; }
   .subscribe-form .form-group .submit {
     color: #fff !important;
-    background: #5dd28e !important;
+    background: #92000a !important;
     border-radius: 0px 5px 5px 0px;
     font-size: 16px; }
     .subscribe-form .form-group .submit:hover {
